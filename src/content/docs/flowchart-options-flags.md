@@ -320,15 +320,15 @@ DatasetStageGroup e02@--> SplitGroup
 SplitGroup == Yes ==> Spliting ==> OpenSFMGroup
 SplitGroup == No ==> OpenSFMGroup
 
-OpenSFMGroup e05@--> OpenmvsGroup
-OpenmvsGroup e06@--> OdmFilterpointsGroup
-OdmFilterpointsGroup e07@--> OdmMeshingGroup
-OdmMeshingGroup e08@--> MvsTexturingGroup
-MvsTexturingGroup e09@--> OdmGeoreferencingGroup
-OdmGeoreferencingGroup e10@--> OdmDemGroup
-OdmDemGroup e11@--> OdmOrthophotoGroup
-OdmOrthophotoGroup e12@--> OdmReportGroup
-OdmReportGroup e13@--> OdmPostprocessGroup
+OpenSFMGroup e02@--> OpenmvsGroup
+OpenmvsGroup e03@--> OdmFilterpointsGroup
+OdmFilterpointsGroup e04@--> OdmMeshingGroup
+OdmMeshingGroup e05@--> MvsTexturingGroup
+MvsTexturingGroup e06@--> OdmGeoreferencingGroup
+OdmGeoreferencingGroup e07@--> OdmDemGroup
+OdmDemGroup e08@--> OdmOrthophotoGroup
+OdmOrthophotoGroup e09@--> OdmReportGroup
+OdmReportGroup e10@--> OdmPostprocessGroup
 
 
 
@@ -349,7 +349,7 @@ classDef animatedEdge stroke-dasharray: 9,5,stroke-dashoffset: 900,animation: da
 
 classDef invisible_class fill:transparent,stroke:transparent,color:transparent,stroke-width:0px;
 class invisible_block,invisible_block_2 invisible_class;
-class e01,e02,e03,e04,e05,e06,e07,e08,e09,e10,e11,e12,e13 animatedEdge;
+class e01,e02,e03,e04,e05,e06,e07,e08,e09,e10 animatedEdge;
 
 
 class DatasetStage,Split,OpenSFM,Openmvs,OdmFilterpoints,OdmMeshing,MvsTexturing,OdmGeoreferencing,OdmDem,OdmOrthophoto,OdmReport,OdmPostprocess subgraphTitle;

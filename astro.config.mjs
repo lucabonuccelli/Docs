@@ -98,6 +98,10 @@ export default defineConfig({
 					slug: 'options-flags'
 				},
 				{
+					label: 'Mission Planning',
+					slug: 'mission-planning'
+				},
+				{
 					label: 'Frequently Asked Questions',
 					slug: 'faq'
 				},

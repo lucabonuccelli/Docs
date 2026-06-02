@@ -132,6 +132,10 @@ export default defineConfig({
 					slug: 'support-the-project'
 				},
 				{
+					label: 'Feedback & Feature Requests',
+					slug: 'feedback-feature-requests'
+				},
+				{
 					label: 'Developers',
 					items: [
 						{

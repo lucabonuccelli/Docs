@@ -9,7 +9,7 @@ All software benefits greatly from user feedback and feature requests. We encour
 
 ## How To Provide Feedback
 
-Open a thread describe what the problem is, what a possible improvement could be and **how are you willing to help**. For example:
+Open a thread to describe what the problem is, what a possible improvement could be and **how are you willing to help**. For example:
 
  * "I'm willing to help with testing"
  * "I'm willing to pay to fix this"

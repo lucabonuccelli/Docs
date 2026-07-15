@@ -27,6 +27,17 @@ export default defineConfig({
 			components: {
 				EditLink: './src/components/EditLink.astro',
 			},
+			defaultLocale: 'root',
+			locales: {
+			  // English docs in `src/content/docs/en/`
+			  root: {
+				label: 'English',
+				lang: 'en'
+			  },
+			  it: {
+				label: 'Italiano',
+			  }
+			},
 			plugins: [
 				// Generate the OpenAPI documentation pages.
 				starlightOpenAPI([
@@ -56,6 +67,9 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: 'Installation',
+					translations: {
+						it: "Installazione"
+					},
 					slug: 'installation'
 				},
 				{

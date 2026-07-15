@@ -18,6 +18,7 @@ This is the documentation repository of LibreTranslate, a free and open source t
 - When translating internal links, we always reference them with the appropriate URL that maps to a markdown file of the translation.
 - Never modify any other file other than those in `src/content` or `astro.config.mjs` without explicit permission.
 - When translating, always check that all the sidebar items in `astro.config.mjs` have a proper translation item in the `translations` key.
+- At the top of markdown documents, make sure to always fill in the template preamble `---` with `title: <translated title>` and `template: doc` 
 
 # How to build / check that the website builds
 

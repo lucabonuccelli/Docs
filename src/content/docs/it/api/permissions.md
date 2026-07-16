@@ -3,8 +3,8 @@ title: Permessi
 template: doc
 ---
 
-WebODM include un sistema standard di permessi a `livello di modello` (model level). Puoi
-verificare se gli utenti hanno effettuato l'accesso e dispongono dei privilegi per agire sugli oggetti
+WebODM include un sistema standard di permessi a `livello di modello` (model level permission system). Puoi
+verificare se gli utenti hanno effettuato l'accesso e dispongono dele autorizzazioni per agire sugli oggetti
 a livello di modello (un utente può aggiungere un progetto? un utente può visualizzare i progetti?).
 
 Oltre a questo, WebODM offre un potente sistema di permessi a `livello di riga` (row level). Puoi specificare esattamente a quali elementi un utente ha o non ha accesso, cosa può eliminare, modificare, ecc.
